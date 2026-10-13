@@ -1,0 +1,308 @@
+body{
+    margin: 0;
+    background-color: #e5e5e5;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+.container{
+    width: 95%;
+    margin: 40px auto;
+    background-color: #f7f7ed;
+}
+
+header{
+    background-color: #f5d4b4;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: #333;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.hero{
+    background-color: #f5d4b4;
+    display: flex;
+    min-height: 420px;
+}
+
+.hero-text{
+    width: 50%;
+    padding: 45px 35px;
+    box-sizing: border-box;
+}
+
+.hero-text h1{
+    font-size: 38px;
+    color: #080808;
+}
+
+.hero-text p{
+    font-size: 12px;
+    line-height: 1.6;
+    max-width: 340px;
+}
+
+button{
+    background-color: #087f68;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 20px;
+    font-size: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.hero-image{
+    width: 50%;
+}
+
+.hero-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.collection{
+    padding: 20px 12% 50px;
+}
+
+.collection > h2{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.intro-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.intro {
+    background-color: #F3D7B7;
+}
+
+.intro-title {
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+
+}
+
+.itnro-descc {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+
+}
+
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 464px;
+}
+
+
+.intro-btn {
+    width: 164px;
+    padding: 16px 0;
+    background-color: #0A775F;
+    color: #fff;
+    border-radius: 40px;
+
+}
+
+
+.intro-coffe {
+    position: relative;
+    top: 140px;
+}
+
+.intro-spinner {
+    transition: 2s all ease;
+    position: absolute;
+    transform: translateX(-100px);
+    z-index: 1;
+}
+
+.intro-spinner:hover {
+    transform: translateX(-100px);
+    transition: 2s all ease;
+    transform: rotate(180deg);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.collection {
+       max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.collection h2 {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 35px;
+    min-height: 160px;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.info {
+    width: 100%;
+}
+
+.info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.reverse {
+    flex-direction: row-reverse;
+}
+.item {
+     gap: 15px;
+}
+
+.item img {
+    width: 42%;
+}
+
+.info {
+        width: 58%;
+}
+
+.info h3 {
+        font-size: 15px;
+ }
+.info p {
+     font-size: 10px;
+}
+
+.coffee-text{
+    margin: left 50px
+    ;
+}
+
+.coffee-text h3{
+    font-size: 22px;
+    color: #383838;
+    margin-bottom: 10px;
+}
+
+.coffee-text p{
+    font-size: 13px;
+    line-height: 1.6;
+    max-width: 320px;
+}
+
+footer{
+    background-color: #f5d4b4;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+  footer{
+
+    background-color: #f5d4b4;
+
+    padding: 30px;
+
+    text-align: center;
+    header{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav a{
+        margin: 5px;
+        font-size: 9px;
+    }
+
+    .hero{
+        flex-direction: column;
+    }
+
+    .hero-text{
+        width: 100%;
+        padding: 25px;
+    }
+
+    .hero-image{
+        width: 100%;
+        height: 280px;
+    }
+
+    .collection{
+        padding: 20px;
+    }
+
+    .coffee,
+    .coffee.reverse{
+        flex-direction: column;
+        gap: 10px;
+        padding: 25px 0;
+    }
+
+    .coffee-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .coffee-bag{
+        width: 90px;
+        height: 140px;
+    }
+
+    footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
